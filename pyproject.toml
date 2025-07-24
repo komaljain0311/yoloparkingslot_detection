@@ -1,0 +1,18 @@
+[project]
+name = "smart-parking-detector"
+version = "0.1.0"
+description = "YOLOv8-powered Streamlit app for smart parking detection"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.8"
+
+dependencies = [
+    "streamlit==1.35.0",
+    "opencv-python==4.9.0.80",
+    "numpy==1.26.4",
+    "Pillow==10.3.0",
+    "ultralytics==8.1.28"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

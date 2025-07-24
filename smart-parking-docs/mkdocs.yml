@@ -1,0 +1,10 @@
+site_name: Smart Parking Detector
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Usage: usage.md
+  - Model Details: model.md
+  - Slot Marking: mark_slots.md
